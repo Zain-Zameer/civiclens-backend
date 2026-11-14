@@ -1,0 +1,5 @@
+# Local dev: everything in requirements.txt plus CLIP (duplicate fingerprints +
+# offline fallback). ~2 GB with torch, so it is not used on Vercel.
+-r requirements.txt
+transformers==4.47.1
+torch==2.5.1

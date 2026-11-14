@@ -1,0 +1,8 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+models/
+test_e2e.py
+test_pipeline.py
+requirements-clip.txt
